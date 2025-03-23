@@ -1,0 +1,84 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/log.js:40
+msgid "Clear Log"
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:61
+msgid "Collecting data…"
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:69
+msgid "Configration file"
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/config.js:13
+#: applications/luci-app-dae/root/usr/share/luci/menu.d/luci-app-dae.json:24
+msgid "Configuration"
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:67
+msgid "Enable"
+msgstr ""
+
+#: applications/luci-app-dae/root/usr/share/rpcd/acl.d/luci-app-dae.json:3
+msgid "Grant access to dae configuration"
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/config.js:14
+msgid ""
+"Here you can edit dae configuration. It will be hot-reloaded automatically "
+"after apply."
+msgstr ""
+
+#: applications/luci-app-dae/root/usr/share/luci/menu.d/luci-app-dae.json:32
+msgid "Log"
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/log.js:10
+msgid "Log file not found."
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:74
+msgid "Max log backups"
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:79
+msgid "Max log size"
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:31
+msgid "NOT RUNNING"
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:29
+msgid "RUNNING"
+msgstr ""
+
+#: applications/luci-app-dae/root/usr/share/luci/menu.d/luci-app-dae.json:16
+msgid "Settings"
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:75
+msgid "The maximum number of old log files to retain."
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:80
+msgid "The maximum size in megabytes of the log file before it gets rotated."
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/log.js:12
+msgid "Unknown error: %s"
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:29
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:31
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:47
+#: applications/luci-app-dae/root/usr/share/luci/menu.d/luci-app-dae.json:3
+msgid "dae"
+msgstr ""
+
+#: applications/luci-app-dae/htdocs/luci-static/resources/view/dae/settings.js:48
+msgid "eBPF-based Linux high-performance transparent proxy solution."
+msgstr ""
