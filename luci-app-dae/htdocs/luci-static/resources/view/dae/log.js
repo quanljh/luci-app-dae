@@ -46,7 +46,7 @@ return view.extend({
           id: "log_viewer",
           class: "cbi-input-textarea",
           readonly: true,
-          style: "width: 100%; height: 600px;",
+          style: "width: 100%; height: 1000px;",
         },
         ""
       ),

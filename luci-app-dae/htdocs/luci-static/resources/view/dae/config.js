@@ -21,7 +21,7 @@ return view.extend({
     s = m.section(form.NamedSection, "config", "dae");
 
     o = s.option(form.TextValue, "_configuration");
-    o.rows = 40;
+    o.rows = 50;
     o.load = function (section_id) {
       // Use current UCI value for file path, default if not set
       let filePath = uci.get("dae", "config", "config_file") || "/etc/dae/config.dae";
