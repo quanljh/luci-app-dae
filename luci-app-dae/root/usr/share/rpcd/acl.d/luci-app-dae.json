@@ -16,7 +16,8 @@
 		"write": {
 			"file": {
 				"/etc/dae/config.dae": [ "write" ],
-				"/var/log/dae/dae.log": [ "write" ]
+				"/var/log/dae/dae.log": [ "write" ],
+				"/bin/sh /usr/share/dae/clear_log.sh": [ "exec" ]
 			},
 			"uci": [ "dae" ]
 		}

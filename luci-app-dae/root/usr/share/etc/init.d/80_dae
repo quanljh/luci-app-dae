@@ -1,0 +1,2 @@
+#!/bin/sh
+chmod +x /usr/share/dae/clear_log.sh

@@ -1,6 +1,7 @@
 "use strict";
 "require view";
 "require fs";
+"require ui";
 
 // Function to reload log via RPC
 function reloadLog() {
@@ -17,9 +18,9 @@ function reloadLog() {
 }
 
 function clearLog() {
-  fs.write("/var/log/dae/dae.log", "")
+  fs.exec("/bin/sh", ["/usr/share/dae/clear_log.sh"])
     .catch(function (e) {
-      console.error(e);
+      ui.addNotification(null, E("p", [e]));
     })
     .then(function () {
       reloadLog();
